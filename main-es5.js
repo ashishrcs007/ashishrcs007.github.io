@@ -131,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"page\">\n    My {{page}} Page. Test 1\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"page\">\n    My {{page}} Page. \n\n    <p>\n        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ipsam iste odit ratione consequatur eligendi unde possimus mollitia obcaecati sunt rerum magnam ut sed fuga animi, ducimus ab tenetur numquam!\n    </p>\n\n    <p>\n        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ipsam iste odit ratione consequatur eligendi unde possimus mollitia obcaecati sunt rerum magnam ut sed fuga animi, ducimus ab tenetur numquam!\n    </p>\n</div>\n";
     /***/
   },
 
