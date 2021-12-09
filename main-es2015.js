@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"page\">\n    My {{page}} Page. \n\n    <p>\n        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ipsam iste odit ratione consequatur eligendi unde possimus mollitia obcaecati sunt rerum magnam ut sed fuga animi, ducimus ab tenetur numquam!\n    </p>\n\n    <p>\n        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ipsam iste odit ratione consequatur eligendi unde possimus mollitia obcaecati sunt rerum magnam ut sed fuga animi, ducimus ab tenetur numquam!\n    </p>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"page\">\n    My {{page}} Page. Test Build 2\n    <p>\n        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ipsam iste odit ratione consequatur eligendi unde possimus mollitia obcaecati sunt rerum magnam ut sed fuga animi, ducimus ab tenetur numquam!\n    </p>\n\n    <p>\n        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ipsam iste odit ratione consequatur eligendi unde possimus mollitia obcaecati sunt rerum magnam ut sed fuga animi, ducimus ab tenetur numquam!\n    </p>\n</div>\n");
 
 /***/ }),
 
