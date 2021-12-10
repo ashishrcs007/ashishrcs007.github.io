@@ -21,11 +21,7 @@ jobs:
         working-directory: ./
         run: npm install 
 
-      - name: Check link errors
-        working-directory: ./
-        run: ng lint
-
-      - name: Check link errors
+      - name: Check lint errors
         working-directory: ./
         run: npm run lint
       
