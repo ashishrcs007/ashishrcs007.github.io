@@ -17,10 +17,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Install and build
+      - name: Install npm dependencies
         working-directory: ./
-        run: npm install && npm run build && cp docs/index.html docs/404.html
+        run: npm install 
+
+      - name: Check link errors
+        working-directory: ./
+        run: ng lint
+
+      - name: Check link errors
+        working-directory: ./
+        run: npm run lint
       
+      - name: Run Test Cases
+        working-directory: ./
+        run: npm run test
+
+      - name: Create Build
+        working-directory: ./
+        run: npm run build && cp docs/index.html docs/404.html
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
